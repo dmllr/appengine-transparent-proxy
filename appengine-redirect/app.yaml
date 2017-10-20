@@ -1,0 +1,7 @@
+runtime: python27
+env: standard
+threadsafe: false
+
+handlers:
+- url: /.*
+  script: main.py
