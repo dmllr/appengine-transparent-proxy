@@ -35,18 +35,6 @@ class AllHandler(webapp.RequestHandler):
     def post(self):
         self.proxy()
 
-    def put(self):
-        self.proxy()
-
-    def options(self):
-        self.proxy()
-
-    def delete(self):
-        self.proxy()
-
-    def patch(self):
-        self.proxy()
-
 
 application = webapp.WSGIApplication([('/.*', AllHandler)])
 
